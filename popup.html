@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>StaylthCode AI Solutions</title>
+  <link rel="stylesheet" href="popup.css"/>
+</head>
+<body class="light">
+  <div class="header">
+    <div class="brand">
+      <h1>StaylthCode</h1>
+      <span class="ai-text">Solutions</span>
+    </div>
+    <button id="themeToggle" class="theme-btn">🌙</button>
+  </div>
+
+  <div class="controls">
+    <!-- Hide test cases -->
+    <div class="control-group">
+      <h3>Test Cases</h3>
+      <div class="toggle-container">
+        <span>Hide Test Cases</span>
+        <label class="toggle-switch">
+          <input type="checkbox" id="hideTestCases"/>
+          <span class="slider round"></span>
+        </label>
+      </div>
+    </div>
+
+    <div class="control-group">
+      <h3>Generate Solutions</h3>
+      <div class="input-group">
+        <select id="solutionLanguage" class="form-control">
+          <option value="python">Python</option>
+          <option value="java">Java</option>
+          <option value="c++">C++</option>
+          <option value="javascript">JavaScript</option>
+          <option value="csharp">C#</option>
+        </select>
+        <button id="generateBtn" class="btn btn-primary">Generate</button>
+      </div>
+    </div>
+
+    <!-- Status + settings -->
+    <div class="status">
+      <div id="apiStatus" class="api-status">
+        <div class="status-icon"></div>
+        <span>API Key: Not Set</span>
+      </div>
+      <button id="settingsBtn" class="btn btn-secondary">Settings</button>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,81 @@
+/* styles.css */
+
+.leetx-solution {
+  margin-bottom: 24px;
+}
+
+.leetx-code {
+  background-color: #f8f9fa;
+  border: 1px solid #eaeaea;
+  border-radius: 4px;
+  padding: 12px;
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #24292e;
+  white-space: pre-wrap;
+  max-height: 300px;
+  overflow: auto;
+}
+
+.leetx-code::-webkit-scrollbar {
+  width: 6px;
+}
+
+.leetx-code::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 193, 7, 0.5);
+  border-radius: 3px;
+}
+
+.leetx-solution h4 {
+  color: #ffc107;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.btn {
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+
+.btn-primary {
+  background-color: #ffc107;
+  color: #000;
+}
+
+.btn-primary:hover {
+  background-color: #e0a800;
+}
+
+.btn-secondary {
+  background-color: #f8f9fa;
+  color: #000;
+  border-color: #eaeaea;
+}
+
+.btn-secondary:hover {
+  background-color: #e9ecef;
+}
+
+.form-control {
+  padding: 8px 12px;
+  border: 1px solid #eaeaea;
+  border-radius: 4px;
+  font-size: 14px;
+  background-color: #fff;
+}
+
+/* Dark mode support */
+.dark .leetx-code {
+  background-color: #1e1e1e;
+  border-color: #444;
+  color: #d4d4d4;
+}
+
+.dark .leetx-solution h4 {
+  color: #ffca28;
+}
